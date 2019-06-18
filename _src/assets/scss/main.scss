@@ -1,8 +1,27 @@
-@import 'core/settings';
-@import 'core/links';
-
 body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: gainsboro;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  padding: 20px 0;
+}
+
+main {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.div__counter {
+  border-top: 1px solid grey;
+}
+
+.div__timer {
+  border-top: 1px solid grey;
 }
